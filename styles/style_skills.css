@@ -1,0 +1,129 @@
+header
+{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 20px;
+}
+
+.text-section
+{
+  flex: 1;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title
+{
+  color: var(--text-color);
+  font-size: 61px;
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+
+.subtitle
+{
+  color: var(--text-color);
+  font-size: 24px;
+  font-family: var(--font-content);
+  text-align: right;
+}
+
+.card-list
+{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.card
+{
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  background: var(--card-color);
+}
+
+.card h2
+{
+  text-align: center;
+  color: var(--text-color);
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+
+.card-description
+{
+  text-align: justify;
+  color: var(--text-color);
+  font-weight: bold;
+  font-family: var(--font-content);
+  line-height: 1.6;
+}
+
+.description
+{
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.description div
+{
+  max-width: 800px;
+}
+
+.description h1
+{
+  margin-bottom: 1em;
+  color: var(--text-color);
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+
+.description p
+{
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: var(--font-content);
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px)
+{
+    .text-section
+    {
+        max-width: 320px;
+    }
+    .title
+    {
+        color: var(--text-color);
+        font-size: calc(var(--phone-text-title) + 15px);
+    }
+    .subtitle
+    {
+        font-size: var(--phone-text-subtitle);
+        margin-right: 0px;
+    }
+    .description p, .card-description p
+    {
+        font-size: var(--phone-text-content);
+    }
+}
