@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <img src="./assets/icons/logo.png" alt="Logo" id="logo-icon"/>
     <div class="nav-menu">
       <ul>
-        <li><a href="./about_me.html">O mnie</a></li>
+        <li><a href="./index.html">O mnie</a></li>
         <li><a href="./education.html">Wykształcenie</a></li>
         <li><a href="./skills.html">Umiejętności</a></li>
         <li><a href="./projects.html">Projekty</a></li>
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const expandedMenu = document.getElementById('expanded-menu');
   expandedMenu.innerHTML = `
     <div id="expanded-menu-content">
-      <a href="./about_me.html">O mnie</a>
+      <a href="./index.html">O mnie</a>
       <a href="./education.html">Wykształcenie</a>
       <a href="./skills.html">Umiejętności</a>
       <a href="./projects.html">Projekty</a>
