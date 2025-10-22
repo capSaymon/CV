@@ -44,14 +44,14 @@ header
 .line
 {
     background-color: var(--text-color);
-    height: 4px;
+    height: 1px;
     margin: 10px 0 10px 0
 }
 .description-text
 {
     font-size: 20px;
     font-family: var(--font-content);
-    color: var(--text-color);
+    color: var(--description-color);
     text-align: justify;
     line-height: 1.6;
 }

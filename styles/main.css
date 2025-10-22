@@ -2,11 +2,9 @@
 {
     --background-color: #19223b;
     --main-color: #CDFCF6;
-    --decoration_color: #182441;
     --text-color: #CBDCEB;
+    --description-color: #89A8B2;
     --hover-color: var(--main-color);
-    --card-color: #35858B;
-    --shadow-color: #182441;
 
     --phone-text-title: 46px;
     --phone-text-subtitle: 20px;
@@ -14,6 +12,7 @@
 
     --font-title: 'Protest Strike', sans-serif;
     --font-content: 'Konkhmer Sleokchher', sans-serif;
+    --font-logo: 'Cookie', cursive;
 }
 
 
@@ -47,6 +46,12 @@ nav
     transform: translateX(-50%);
     z-index: 2;
 }
+nav p
+{
+    color: var(--main-color);
+    font-size: 33px;
+    font-family: var(--font-logo);
+}
 nav ul
 {
     list-style: none;
@@ -67,13 +72,6 @@ nav li a
 nav li a:hover
 {
     color: var(--hover-color);
-}
-nav p
-{
-    color: var(--main-color);
-    font-weight: bold;
-    font-size: 33px;
-    font-family: 'Cookie', cursive;
 }
 #expanded-menu
 {
