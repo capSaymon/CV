@@ -19,11 +19,10 @@ W projekcie wykorzystałem trzy podstawowe technologie front-endowe:
 
 Strona składa się z pięciu głównych podstron, które razem tworzą kompletną prezentację mojej osoby:  
 
-- **O mnie** – zawiera krótki opis mojej osoby, zainteresowań oraz celów zawodowych  
+- **O mnie** – zawiera krótki opis mojej osoby  
 - **Wykształcenie** – przedstawia moją ścieżkę edukacyjną, w tym naukę w liceum oraz aktualne studia  
 - **Umiejętności** – podzielone na dwie kategorie: znajomość języków programowania oraz umiejętności miękkie, takie jak komunikacja czy praca zespołowa  
 - **Projekty** – prezentacja trzech dotychczasowych projektów wraz z opisami, które można znaleźć na moim GitHubie  
-- **Kontakt** – sekcja umożliwiająca kontakt ze mną  
 
 
 ## Podsumowanie  
