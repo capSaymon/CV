@@ -41,16 +41,20 @@ body
 /*Menu*/
 nav
 {
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: center;
     padding: 0 40px;
+    background-color: var(--background-color);
     font-family: var(--font-content);
     position: absolute;
-    margin: 16px 46px 5px 46px;
+    margin: 0px 46px 5px 46px;
     width: auto;
     overflow: hidden;
     position: relative;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
 }
 .nav-menu
 {
