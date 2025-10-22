@@ -1,12 +1,12 @@
 :root
 {
-    --background-color: linear-gradient(180deg, #072227 85%, #061B1F 100%);
-    --main-color: #034C53;
-    --decoration_color: #4fbdba33;
+    --background-color: #19223b;
+    --main-color: ;
+    --decoration_color: #182441;
     --text-color: #ffffff;
     --hover-color: #e0e0e0;
     --card-color: #35858B;
-    --shadow-color: #4fbdba33;
+    --shadow-color: #182441;
 
     --phone-text-title: 46px;
     --phone-text-subtitle: 20px;
@@ -19,7 +19,7 @@
 
 body
 {
-    background-image: var(--background-color);
+    background: var(--background-color);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;

@@ -1,14 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   const nav = document.querySelector('nav');
   nav.innerHTML = `
-    <img src="./assets/icons/logo.png" alt="Logo" id="logo-icon"/>
     <div class="nav-menu">
       <ul>
-        <li><a href="./index.html">O mnie</a></li>
-        <li><a href="./education.html">Wykształcenie</a></li>
-        <li><a href="./skills.html">Umiejętności</a></li>
-        <li><a href="./projects.html">Projekty</a></li>
-        <li><a href="./contact.html">Kontakt</a></li>
+        <li><a href="#">O mnie</a></li>
+        <li><a href="#">Wykształcenie</a></li>
+        <li><a href="#">Umiejętności</a></li>
+        <li><a href="#">Projekty</a></li>
       </ul>
     </div>
     <img src="./assets/icons/menu.png" alt="Menu" id="menu-icon"/>
@@ -17,11 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const expandedMenu = document.getElementById('expanded-menu');
   expandedMenu.innerHTML = `
     <div id="expanded-menu-content">
-      <a href="./index.html">O mnie</a>
-      <a href="./education.html">Wykształcenie</a>
-      <a href="./skills.html">Umiejętności</a>
-      <a href="./projects.html">Projekty</a>
-      <a href="./contact.html">Kontakt</a>
+      <a href="#">O mnie</a>
+      <a href="#">Wykształcenie</a>
+      <a href="#">Umiejętności</a>
+      <a href="3">Projekty</a>
     </div>
   `;
 
