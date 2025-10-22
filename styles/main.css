@@ -15,6 +15,19 @@
     --font-logo: 'Cookie', cursive;
 }
 
+@font-face {
+  font-family: 'Cookie';
+  src: url('../fonts/Cookie-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Protest Strike';
+  src: url('../fonts/ProtestStrike-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body
 {
