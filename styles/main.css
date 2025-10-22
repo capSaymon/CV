@@ -68,6 +68,13 @@ nav li a:hover
 {
     color: var(--hover-color);
 }
+nav p
+{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 33px;
+    font-family: 'Cookie', cursive;
+}
 #expanded-menu
 {
     display: none;
