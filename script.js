@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#">Projekty</a></li>
       </ul>
     </div>
-    <img src="./assets/icons/menu.png" alt="Menu" id="menu-icon"/>
   `;
 
   const expandedMenu = document.getElementById('expanded-menu');

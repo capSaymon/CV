@@ -1,10 +1,10 @@
 :root
 {
     --background-color: #19223b;
-    --main-color: ;
+    --main-color: #CDFCF6;
     --decoration_color: #182441;
-    --text-color: #ffffff;
-    --hover-color: #e0e0e0;
+    --text-color: #CBDCEB;
+    --hover-color: var(--main-color);
     --card-color: #35858B;
     --shadow-color: #182441;
 
@@ -26,12 +26,9 @@ body
     margin: 0;
 }
 
-
-
+/*Menu*/
 nav
 {
-    background-color: var(--main-color);
-    border-radius: 50px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -42,11 +39,6 @@ nav
     width: auto;
     overflow: hidden;
     position: relative;
-}
-nav #logo-icon
-{
-    height: 40px;
-    z-index: 1;
 }
 .nav-menu
 {
@@ -76,11 +68,6 @@ nav li a:hover
 {
     color: var(--hover-color);
 }
-nav #menu-icon
-{
-    display: none;
-}
-
 #expanded-menu
 {
     display: none;
@@ -102,7 +89,8 @@ nav #menu-icon
     padding: 0;
     opacity: 0;
 }
-#expanded-menu-content {
+#expanded-menu-content
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,6 +118,7 @@ nav #menu-icon
     color: var(--hover-color);
 }
 
+/*stopka*/
 footer
 {
     display: flex;
@@ -141,32 +130,11 @@ footer
 }
 footer a
 {
-    font-size: 20px;
+    font-size: 13px;
     font-family: var(--font-content);
     color: var(--text-color);
     text-align: center;
     line-height: 1.6;
     font-weight: bold;
     word-wrap: break-word;
-}
-
-@media screen and (max-width: 768px)
-{
-    .nav-menu
-    {
-        display: none;
-    }
-    nav #menu-icon
-    {
-        display: block;
-        height: 50px;
-        z-index: 3;
-        position: absolute;
-        right: 40px;
-        cursor: pointer;
-    }
-    footer a
-    {
-        font-size: var(--phone-text-content);
-    }
 }

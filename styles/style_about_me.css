@@ -7,8 +7,7 @@ header
     justify-content: center;
     box-sizing: border-box;
 }
-
-.start
+.introduction
 {
     max-width: 1200px;
     width: 100%;
@@ -17,15 +16,13 @@ header
     margin-left: 20px;
     margin-right: 20px;
 }
-  
 .text-section
 {
     flex: 1;
-    max-width: 420px;
+    max-width: 404px;
     display: flex;
     flex-direction: column;
 }
-
 .title
 {
     color: var(--text-color);
@@ -33,27 +30,23 @@ header
     font-family: var(--font-title);
     font-weight: bold;
 }
-
+.title span
+{
+    color: var(--main-color);
+}
 .subtitle
 {
     color: var(--text-color);
     font-size: 24px;
     font-family: var(--font-content);
     text-align: right;
-    margin-right: 20px;
 }
-
-.description
+.line
 {
-    margin-top: 50px;
+    background-color: var(--text-color);
+    height: 4px;
+    margin: 10px 0 10px 0
 }
-
-.special-icon
-{
-    width: 30px;
-    height: 30px;
-}
-
 .description-text
 {
     font-size: 20px;
@@ -61,36 +54,6 @@ header
     color: var(--text-color);
     text-align: justify;
     line-height: 1.6;
-}
-
-.image-section
-{
-    position: relative;
-    max-width: 548px;
-    max-height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.shadow
-{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: var(--shadow-color);
-    border-radius: 400px;
-    filter: blur(50px);
-    z-index: 1;
-}
-
-.profile-image
-{
-    width: 500px;
-    height: 500px;
-    border-radius: 400px;
-    object-fit: cover;
-    z-index: 2;
 }
 
 main
@@ -101,52 +64,6 @@ main
     align-items: center;
 }
 
-.hobby-title
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 55px;
-    font-family: var(--font-title);
-    font-weight: bold;
-    color: var(--text-color);
-    margin-bottom: 50px;
-    margin-top: 40px;
-}
-
-.hobby-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-}
-
-.hobby-item
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 120px;
-    text-align: center;
-}
-
-.hobby-item img
-{
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-    margin-bottom: 10px;
-}
-
-.hobby-item span
-{
-    font-size: 16px;
-    color: var(--text-color);
-    font-family: var(--font-content);
-    font-weight: bold;
-}
-
 article
 {
     width: 100%;
@@ -155,97 +72,4 @@ article
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-}
-
-.end
-{
-    max-width: 1200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-
-
-@media (max-width: 1050px)
-{
-    .end
-    {
-        margin-top: 30px;
-        padding: 0 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .text-section
-    {
-        order: 1;
-    }
-    .image-section
-    {
-        order: 2;
-    }
-
-    .start
-    {
-        margin-top: 100px;
-        padding: 0 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .profile-image
-    {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-@media (max-width: 767px)
-{
-    .text-section
-    {
-        max-width: 320px;
-    }
-    .title
-    {
-        color: var(--text-color);
-        font-size: var(--phone-text-title);
-    }
-    .subtitle
-    {
-        font-size: var(--phone-text-subtitle);
-        margin-right: 0px;
-    }
-    .profile-image
-    {
-        width: 300px;
-        height: 300px;
-        margin-bottom: 50px;
-    }
-    .special-icon
-    {
-        width: 20px;
-        height: 20px;
-    }
-    .description-text
-    {
-        font-size: var(--phone-text-content);
-        margin-bottom: 50px;
-    }
-    .hobby-title
-    {
-        font-size: var(--phone-text-title);
-    }
-    .hobby-item img
-    {
-        width: 50px;
-        height: 50px;
-    }
-    .hobby-item span
-    {
-        font-size: var(--phone-text-content);
-    }
 }
