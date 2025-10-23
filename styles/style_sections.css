@@ -1,0 +1,24 @@
+main
+{
+    display: flex;
+}
+section#about-me
+{
+    width: 100vh;
+}
+section#about-me h1
+{
+    color: var(--text-color);
+    font-size: 40px;
+    font-family: var(--font-title);
+    font-weight: bold;
+    text-align: center;
+}
+section#about-me p
+{
+    font-size: 20px;
+    font-family: var(--font-content);
+    color: var(--description-color);
+    text-align: justify;
+    line-height: 1.6;
+}
