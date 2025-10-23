@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const nav = document.querySelector('nav');
   nav.innerHTML = `
-    <p>Szymon<p>
+    <a id="name-text" href="">Szymon<a>
     <div class="nav-menu">
       <ul>
         <li><a href="#">O mnie</a></li>
