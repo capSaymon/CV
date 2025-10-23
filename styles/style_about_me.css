@@ -39,10 +39,6 @@ header
     font-family: var(--font-title);
     font-weight: bold;
 }
-.title span
-{
-    color: var(--main-color);
-}
 .subtitle
 {
     color: var(--text-color);
