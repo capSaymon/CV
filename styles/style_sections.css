@@ -5,6 +5,15 @@ main
 section#about-me
 {
     width: 100vh;
+    opacity: 0;
+    transform: translateY(40px); 
+    animation: animationAboutme ease-out 0.8s forwards;
+}
+@keyframes animationAboutme {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 section#about-me h1
 {
